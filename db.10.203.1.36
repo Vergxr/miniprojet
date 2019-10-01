@@ -1,0 +1,10 @@
+$TTL 1h;
+@ IN SOA debian8.in.iutbeziers.fr. jean-marc.pouchoulon.iutbeziers.fr. (
+19091701 ; Serial
+3600 ; Refresh(1h)
+3600 ; Retry(1h)
+3600000 ; Expire(41j)
+86400 ) ; Minimum(24h)
+@       IN      NS debian.ASHLEY.VERGER.local
+$ORIGIN 10.203.1.36.in-addr.arpa
+mail   IN PTR debian.ASHLEY-VERGER.local
